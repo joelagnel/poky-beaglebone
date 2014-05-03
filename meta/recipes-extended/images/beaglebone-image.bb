@@ -4,7 +4,7 @@ functionality installed."
 CORE_IMAGE_EXTRA_INSTALL += "vim avahi"
 
 # Kernel tools
-CORE_IMAGE_EXTRA_INSTALL += "trace-cmd perf latencytop"
+CORE_IMAGE_EXTRA_INSTALL += "trace-cmd perf latencytop strace"
 
 IMAGE_FEATURES += "splash ssh-server-openssh package-management"
 
