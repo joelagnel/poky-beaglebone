@@ -5,10 +5,14 @@ LCONF_VERSION = "6"
 BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
+# meta-openembedded added by Joel for vim
+# Remember to check out a recent version into poky
+
 BBLAYERS ?= " \
   ##OEROOT##/meta \
   ##OEROOT##/meta-yocto \
   ##OEROOT##/meta-yocto-bsp \
+  ##OEROOT##/meta-openembedded/meta-oe \
   "
 BBLAYERS_NON_REMOVABLE ?= " \
   ##OEROOT##/meta \
