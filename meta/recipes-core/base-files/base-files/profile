@@ -34,3 +34,5 @@ export PATH PS1 OPIEDIR QPEDIR QTDIR EDITOR TERM
 
 umask 022
 
+eval `resize`
+alias rs='set noglob; eval `resize`'
