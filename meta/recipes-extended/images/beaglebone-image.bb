@@ -1,10 +1,20 @@
 DESCRIPTION = "A console-only image with more full-featured Linux system \
 functionality installed."
 
-CORE_IMAGE_EXTRA_INSTALL += "vim avahi"
+# Common tools
+CORE_IMAGE_EXTRA_INSTALL += "\
+vim 		\
+vim-common	\
+avahi"
 
 # Kernel tools
-CORE_IMAGE_EXTRA_INSTALL += "trace-cmd perf latencytop strace cpufrequtils rt-tests"
+CORE_IMAGE_EXTRA_INSTALL += "\
+trace-cmd	\
+perf		\
+latencytop	\
+strace		\
+cpufrequtils	\
+rt-tests"
 
 # Resizing RAW ttys using resize command
 # add xterm so that resize command works
