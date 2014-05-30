@@ -27,7 +27,8 @@
 # There are also the following hardware board target machines included for 
 # demonstration purposes:
 #
-MACHINE ?= "beaglebone"
+MACHINE ?= "am180x-evm"
+# MACHINE ?= "beaglebone"
 #MACHINE ?= "genericx86"
 #MACHINE ?= "genericx86-64"
 #MACHINE ?= "mpc8315e-rdb"
