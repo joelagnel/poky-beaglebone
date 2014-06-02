@@ -10,7 +10,6 @@ avahi"
 # Kernel tools
 CORE_IMAGE_EXTRA_INSTALL += "\
 trace-cmd	\
-perf		\
 latencytop	\
 strace		\
 cpufrequtils	\
