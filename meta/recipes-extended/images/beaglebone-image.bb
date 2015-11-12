@@ -4,8 +4,7 @@ functionality installed."
 # Common tools
 CORE_IMAGE_EXTRA_INSTALL += "\
 vim 		\
-vim-common	\
-avahi"
+vim-common"
 
 # Kernel tools
 CORE_IMAGE_EXTRA_INSTALL += "\
